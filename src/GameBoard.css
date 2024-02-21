@@ -1,0 +1,36 @@
+/* GameBoard.css */
+.board-row {
+    display: flex;
+  }
+  
+  .square {
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    background-color: #fff;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
